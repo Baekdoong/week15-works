@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap');
+
+
+
+
+.img1 {
+    width:100%;
+    height:100%;
+    position:absolute;
+
+    animation: opacitys;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.img2 {
+    width:100%;
+    height:100%;
+    position:absolute;
+
+    animation: opacitys;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.img3 {
+    width:100%;
+    height:100%;
+    position:absolute;
+
+    animation: opacitys;  
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.img4 {
+    width:100%;
+    height:100%;
+    position:absolute;
+
+    animation: opacitys;  
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.img5 {
+    width:100%;
+    height:100%;
+    position:absolute;
+
+    animation: opacitys;  
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.img6 {
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+
+
+
+.titletypo1 {
+    width:230px;
+    height:200px;
+    position:absolute;
+    left: 84%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    
+    animation: opacitys1;
+    animation-fill-mode: forwards;
+}
+
+
+.titletypo2 {
+    width:300px;
+    height:270px;
+    position:absolute;
+    left: 84%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    
+    animation: opacitys1;
+    animation-fill-mode: forwards;
+}
+
+
+
+.subtypo{
+    width:270px;
+    height:100px;
+    position:absolute;
+    left: 75%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    
+    animation: opacitys2;
+    animation-fill-mode: forwards;
+}
+
+
+
+.actorname {font-size: 9pt;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    animation: opacitys2;
+    animation-fill-mode: forwards;
+}
+
+
+
+.releasedate {font-size: 30pt;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 2px;
+    font-family: 'Noto Serif TC', serif;
+
+    animation: opacitys2;
+    animation-fill-mode: forwards;
+}
+
+
+
+audio {position: absolute; 
+    left: 5%; 
+    top: 4%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 27px;
+    opacity: 0.5; 
+}
+
+
+
+@-webkit-keyframes opacitys {
+    0% { 
+        opacity: 1; 
+    }
+
+    100% {
+         opacity: 0;
+      }
+    }
+
+
+
+ @-webkit-keyframes opacitys1 {
+    0% { 
+        opacity: 0; 
+    }
+
+        50%{ 
+        opacity: 0; 
+    }
+
+    100% {
+         opacity: 1;
+      }
+    }
+
+
+
+@-webkit-keyframes opacitys2 {
+    0% { 
+        opacity: 0; 
+    }
+
+        50%{ 
+        opacity: 0; 
+    }
+
+    100% {
+         opacity: 0.7;
+      }
+    }
+
+
+
+ 
